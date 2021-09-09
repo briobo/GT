@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Gesto_x0020_de_x0020_Talentos" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Gesto_x0020_de_x0020_Talentos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Empleado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cuit" type="xs:string" />
+              <xs:element name="razonSocial" type="xs:string" minOccurs="0" />
+              <xs:element name="categoria" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion" type="xs:string" minOccurs="0" />
+              <xs:element name="localidad" type="xs:string" minOccurs="0" />
+              <xs:element name="provincia" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono" type="xs:string" minOccurs="0" />
+              <xs:element name="celular" type="xs:string" minOccurs="0" />
+              <xs:element name="email" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EstadoProyecto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string" />
+              <xs:element name="descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Grupos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="grupo" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GrupoModulos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="grupo" type="xs:string" minOccurs="0" />
+              <xs:element name="modulo" type="xs:string" minOccurs="0" />
+              <xs:element name="permisos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Empleados">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="legajo" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="dni" type="xs:float" minOccurs="0" />
+              <xs:element name="tipo_contratacion" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion" type="xs:string" minOccurs="0" />
+              <xs:element name="localidad" type="xs:string" minOccurs="0" />
+              <xs:element name="provincia" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono" type="xs:string" minOccurs="0" />
+              <xs:element name="celular" type="xs:string" minOccurs="0" />
+              <xs:element name="email" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UsuarioGrupos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="usuario" type="xs:string" minOccurs="0" />
+              <xs:element name="grupo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Usuarios">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="usuario" type="xs:string" />
+              <xs:element name="clave" type="xs:string" minOccurs="0" />
+              <xs:element name="fechaUltimoLogin" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cantidadMaximaDeReintentos" type="xs:int" minOccurs="0" />
+              <xs:element name="reintentos" type="xs:int" minOccurs="0" />
+              <xs:element name="usuarioBloqueado" type="xs:boolean" minOccurs="0" />
+              <xs:element name="telefono" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//Empleado" />
+      <xs:field xpath="cuit" />
+    </xs:unique>
+    <xs:unique name="EstadoProyecto_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//EstadoProyecto" />
+      <xs:field xpath="codigo" />
+    </xs:unique>
+    <xs:unique name="Grupos_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Grupos" />
+      <xs:field xpath="grupo" />
+    </xs:unique>
+    <xs:unique name="Empleados_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Empleados" />
+      <xs:field xpath="legajo" />
+    </xs:unique>
+    <xs:unique name="Usuarios_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//Usuarios" />
+      <xs:field xpath="usuario" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

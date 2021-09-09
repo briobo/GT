@@ -1,0 +1,254 @@
+<?xml version="1.0" standalone="yes"?>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <Gesto_x0020_de_x0020_Talentos>
+    <Empleado diffgr:id="Empleado1" msdata:rowOrder="0">
+      <cuit>20116045800</cuit>
+      <razonSocial>Interbanking SA</razonSocial>
+      <categoria>Responsable Inscripto</categoria>
+      <direccion>san juan 3232</direccion>
+      <localidad>CABA</localidad>
+      <provincia>CABA</provincia>
+      <telefono>11544556445</telefono>
+      <celular>116859552</celular>
+      <email>rrhh@interbanking.ar</email>
+    </Empleado>
+    <Empleado diffgr:id="Empleado2" msdata:rowOrder="1">
+      <cuit>20116045810</cuit>
+      <razonSocial>Prisma MP</razonSocial>
+      <categoria>Resposable Inscripto</categoria>
+      <direccion>Manuel Castro 433</direccion>
+      <localidad>CABA</localidad>
+      <provincia>CABA</provincia>
+      <telefono>1154453232</telefono>
+      <celular>116323232</celular>
+      <email>administracion@primamp.com.ar</email>
+    </Empleado>
+    <EstadoProyecto diffgr:id="EstadoProyecto1" msdata:rowOrder="0">
+      <codigo>1</codigo>
+      <descripcion>Ingresado</descripcion>
+    </EstadoProyecto>
+    <EstadoProyecto diffgr:id="EstadoProyecto2" msdata:rowOrder="1">
+      <codigo>2</codigo>
+      <descripcion>Ingresado Aprobado</descripcion>
+    </EstadoProyecto>
+    <EstadoProyecto diffgr:id="EstadoProyecto3" msdata:rowOrder="2">
+      <codigo>3</codigo>
+      <descripcion>Iniciado</descripcion>
+    </EstadoProyecto>
+    <EstadoProyecto diffgr:id="EstadoProyecto4" msdata:rowOrder="3">
+      <codigo>4</codigo>
+      <descripcion>Finalizado</descripcion>
+    </EstadoProyecto>
+    <EstadoProyecto diffgr:id="EstadoProyecto5" msdata:rowOrder="4">
+      <codigo>5</codigo>
+      <descripcion>Finalizado Aprobado</descripcion>
+    </EstadoProyecto>
+    <Grupos diffgr:id="Grupos1" msdata:rowOrder="0">
+      <grupo>Administradores</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos2" msdata:rowOrder="1">
+      <grupo>Alta de datos</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos3" msdata:rowOrder="2">
+      <grupo>Sistemas</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos4" msdata:rowOrder="3">
+      <grupo>RRHH</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos5" msdata:rowOrder="4">
+      <grupo>Informes</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos6" msdata:rowOrder="5">
+      <grupo>Invitados</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos7" msdata:rowOrder="6">
+      <grupo>Basico</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos8" msdata:rowOrder="7">
+      <grupo>GrupoPrueba</grupo>
+    </Grupos>
+    <Grupos diffgr:id="Grupos9" msdata:rowOrder="8">
+      <grupo>OtroGrupoPrueba</grupo>
+    </Grupos>
+    <GrupoModulos diffgr:id="GrupoModulos1" msdata:rowOrder="0">
+      <grupo>Administradores</grupo>
+      <modulo>Administrador</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos2" msdata:rowOrder="1">
+      <grupo>Administradores</grupo>
+      <modulo>Usuarios</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos3" msdata:rowOrder="2">
+      <grupo>Administradores</grupo>
+      <modulo>Grupos</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos4" msdata:rowOrder="3">
+      <grupo>Administradores</grupo>
+      <modulo>Copias de seguridad</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos5" msdata:rowOrder="4">
+      <grupo>Basico</grupo>
+      <modulo>Sesion</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos6" msdata:rowOrder="5">
+      <grupo>Basico</grupo>
+      <modulo>Perfil</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos7" msdata:rowOrder="6">
+      <grupo>Basico</grupo>
+      <modulo>Cerrar sesion</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos8" msdata:rowOrder="7">
+      <grupo>Alta de datos</grupo>
+      <modulo>Cliente</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos9" msdata:rowOrder="8">
+      <grupo>Alta de datos</grupo>
+      <modulo>Nuevo cliente</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos10" msdata:rowOrder="9">
+      <grupo>Alta de datos</grupo>
+      <modulo>Talentos</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos11" msdata:rowOrder="10">
+      <grupo>Alta de datos</grupo>
+      <modulo>Nuevo talento</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos12" msdata:rowOrder="11">
+      <grupo>Sistemas</grupo>
+      <modulo>Proyecto</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos13" msdata:rowOrder="12">
+      <grupo>Sistemas</grupo>
+      <modulo>Nuevo proyecto</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos14" msdata:rowOrder="13">
+      <grupo>Sistemas</grupo>
+      <modulo>listado proyectos</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos15" msdata:rowOrder="14">
+      <grupo>Informes</grupo>
+      <modulo>Informes</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos16" msdata:rowOrder="15">
+      <grupo>Informes</grupo>
+      <modulo>Dashboard</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos17" msdata:rowOrder="16">
+      <grupo>RRHH</grupo>
+      <modulo>Solicitudes</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos18" msdata:rowOrder="17">
+      <grupo>RRHH</grupo>
+      <modulo>Abiertas</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos19" msdata:rowOrder="18">
+      <grupo>RRHH</grupo>
+      <modulo>Cerradas</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos20" msdata:rowOrder="19">
+      <grupo>RRHH</grupo>
+      <modulo>Listado de clientes</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <GrupoModulos diffgr:id="GrupoModulos21" msdata:rowOrder="20">
+      <grupo>RRHH</grupo>
+      <modulo>Listado de clientes</modulo>
+      <permisos>111</permisos>
+    </GrupoModulos>
+    <Empleados diffgr:id="Empleados1" msdata:rowOrder="0">
+      <legajo>1</legajo>
+      <nombre>Roberto</nombre>
+      <apellido>Perez</apellido>
+      <dni>29886116</dni>
+      <tipo_contratacion>efectivo</tipo_contratacion>
+      <direccion>Bulnes 433</direccion>
+      <localidad>CABA</localidad>
+      <provincia>CABA</provincia>
+      <telefono>1154453232</telefono>
+      <celular>116323232</celular>
+      <email>rperez@gmail.com</email>
+    </Empleados>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos1" msdata:rowOrder="0">
+      <usuario>admin</usuario>
+      <grupo>Administradores</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos2" msdata:rowOrder="1">
+      <usuario>admin</usuario>
+      <grupo>Basico</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos3" msdata:rowOrder="2">
+      <usuario>admin</usuario>
+      <grupo>Alta de datos</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos4" msdata:rowOrder="3">
+      <usuario>admin</usuario>
+      <grupo>RRHH</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos5" msdata:rowOrder="4">
+      <usuario>admin</usuario>
+      <grupo>Sistemas</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos6" msdata:rowOrder="5">
+      <usuario>admin</usuario>
+      <grupo>Informes</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos7" msdata:rowOrder="6">
+      <usuario>invitado</usuario>
+      <grupo>Basico</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos8" msdata:rowOrder="7">
+      <usuario>master</usuario>
+      <grupo>Administradores</grupo>
+    </UsuarioGrupos>
+    <UsuarioGrupos diffgr:id="UsuarioGrupos9" msdata:rowOrder="8">
+      <usuario>master</usuario>
+      <grupo>Basico</grupo>
+    </UsuarioGrupos>
+    <Usuarios diffgr:id="Usuarios1" msdata:rowOrder="0">
+      <usuario>admin</usuario>
+      <clave>$MYHASH$V1$10000$qadHSB/WdQTHkj5bkYGJMehJIgzWuRJfM+3hQz3iQHJ0Ta9G</clave>
+      <fechaUltimoLogin>2021-08-27T18:53:08.0803091-03:00</fechaUltimoLogin>
+      <cantidadMaximaDeReintentos>3</cantidadMaximaDeReintentos>
+      <reintentos>0</reintentos>
+      <usuarioBloqueado>false</usuarioBloqueado>
+      <telefono>+5491165253695</telefono>
+    </Usuarios>
+    <Usuarios diffgr:id="Usuarios2" msdata:rowOrder="1">
+      <usuario>invitado</usuario>
+      <clave>$MYHASH$V1$10000$qadHSB/WdQTHkj5bkYGJMehJIgzWuRJfM+3hQz3iQHJ0Ta9G</clave>
+      <fechaUltimoLogin>2021-08-27T18:53:08.0983102-03:00</fechaUltimoLogin>
+      <cantidadMaximaDeReintentos>3</cantidadMaximaDeReintentos>
+      <reintentos>0</reintentos>
+      <usuarioBloqueado>false</usuarioBloqueado>
+    </Usuarios>
+    <Usuarios diffgr:id="Usuarios3" msdata:rowOrder="2">
+      <usuario>master</usuario>
+      <clave>$MYHASH$V1$10000$biPFvrjSBy02kwJPy12U90NJm9n4bX2snDKUuxzbszdw3oJ9</clave>
+      <fechaUltimoLogin>2021-08-27T18:53:08.0983102-03:00</fechaUltimoLogin>
+      <cantidadMaximaDeReintentos>3</cantidadMaximaDeReintentos>
+      <reintentos>0</reintentos>
+      <usuarioBloqueado>false</usuarioBloqueado>
+      <telefono>+5491165859614</telefono>
+    </Usuarios>
+  </Gesto_x0020_de_x0020_Talentos>
+</diffgr:diffgram>
